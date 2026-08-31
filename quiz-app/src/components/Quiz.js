@@ -44,7 +44,7 @@ const Quiz = () => {
                 <button onClick={()=>setSelectChoice("D")}>{QuestionsData[current].D}</button>
             </div>
             <p>{`${current+1} / ${QuestionsData.length}`}</p>
-            <div style={{ display: "flex", flexDirection: "row", gap: "5px" }}>
+            <div style={{ display: "flex", flexDirection: "row", gap: "5px" , width: "80%"}}>
                 <button onClick={()=>setSelectChoice("A")}>ย้อนกลับ</button>
                 <button onClick={()=>setSelectChoice("A")}>ถัดไป</button>
             </div>
