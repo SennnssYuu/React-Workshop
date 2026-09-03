@@ -1,4 +1,4 @@
-import {useContext} from 'react';
+import {useContext, useEffect} from 'react';
 import {DataContext} from '../App';
 import QuestionsData from '../data/QuestionsData';
 

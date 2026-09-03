@@ -18,7 +18,6 @@ function App() {
           {appState === 'quiz' && <Quiz />}
           {appState === 'score' && <Score />}
       </DataContext.Provider>
-      
     </div>
   );
 }
